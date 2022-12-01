@@ -1,0 +1,140 @@
+.home-image{
+    padding: 3rem ;
+}
+
+.home-image img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.home__text{
+    padding-left: 3rem;
+    font-size: .6rem;
+    font-weight: 300;
+    display: flex;
+    
+    
+}
+
+.home__button{
+    background-color: var(--tertiary-color);
+    padding: .5rem;
+    color: var(--quaternary-color);
+}
+.text-title{
+    width: 91.5%;
+
+    color: var(--quaternary-color);
+    background-color: var(--secondary-color);
+    padding: .7rem;
+}
+
+.home__head{
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color: var(--quaternary-color);
+}
+/* .home__body-button{
+    
+} */
+.button{
+    width: 100%;
+    padding: .8rem;
+    margin: .6rem;
+    color: #fff;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: .5rem;
+}
+.button-1{
+    background-color: var(--tertiary-color);
+}
+
+.button-2{
+    background-color: var(--quaternary-color);
+}
+
+.button-3{
+    background-color: var(--secondary-color);
+}
+
+.home__body-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    
+}
+.home__body-cards .card1{
+    background-color: var(--tertiary-color);
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.home__body-cards .body_text {
+    color: var(--quaternary-color);
+
+}
+
+.home__body-cards .card2{
+    background-color: var(--quaternary-color);
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.body_text2{
+    color: var(--secondary-color);
+}
+.card2 .button2{
+    color: var(--secondary-color);
+}
+
+.home__body-cards .card3{
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.home__body-card4 .btn{
+    background-color: var(--quaternary-color);
+    color: #fff;
+    padding: .5rem;
+    border-radius: .5rem;
+    border: none;
+    font-size: 1.2rem;
+    margin: .6rem;
+}
+
+.home__body-card4 .course1{
+    background-color: var(--tertiary-color);
+    
+}
+
+.home__body-card4 .course2{
+    background-color: var(--quaternary-color);
+    
+    
+}
+
+.home__body-card4 .course3{
+    background-color: var(--secondary-color);
+    color: var(--quaternary-color);
+    
+}
+
+.home__body-card5 .search__input{
+    width: 100%;
+    padding: .5rem;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    margin: .4rem;
+    
+
+}
+.home__body-card5 .search_input-card{
+    background-color: var(--tertiary-color);
+    color: var(--quaternary-color);
+}
